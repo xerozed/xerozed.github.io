@@ -81,13 +81,13 @@ h3.paragraph{
 .projects {
     max-height: 50vh;
     overflow-y: auto;
-    padding-right: 10px; /* hogy ne takarja el a scrollbar a tartalmat */
+    padding-right: 10px;
 }
 
 .certifications{
     max-height: 13vh;
     overflow-y: auto;
-    padding-right: 10px; /* hogy ne takarja el a scrollbar a tartalmat */
+    padding-right: 10px;
 }
 
 .education{

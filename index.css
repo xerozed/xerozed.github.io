@@ -27,7 +27,7 @@ body {
 }
 
 .left-top {
-    height: 55vh;
+    height: 60vh;
     background-color: #cecece;
     color: black;
     border-top-right-radius: 20px;
@@ -152,6 +152,8 @@ h3.paragraph{
     background-color: #cecece;
     color: black;
     width: 45%;
+    min-width:320px;
+    max-width: 400px;
     border-radius: 20px;
     padding: 15px;
     margin-bottom: 20px;
@@ -165,3 +167,29 @@ h3.paragraph{
     padding: 15px;
     margin-bottom: 20px;
 }
+
+
+@media (max-width: 1360px) {
+    .contacts {
+        display: block;
+    }
+
+    #contacts-title {
+        text-align: left;
+    }
+
+    .contact-item {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .contact-item p {
+        display: none;
+    }
+
+    .contact-item img {
+        width: 24px;
+        height: 24px;
+    }
+}
+

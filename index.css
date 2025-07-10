@@ -14,6 +14,7 @@ body {
     display: flex;
     height: 100vh;
     width: 100%;
+
 }
 
 /* Left panel */
@@ -95,16 +96,13 @@ h3.paragraph{
     overflow-y: auto;
     padding-right: 10px; /* hogy ne takarja el a scrollbar a tartalmat */
 }
-
 .projects::-webkit-scrollbar,.certifications::-webkit-scrollbar,.education::-webkit-scrollbar {
     width: 8px;
 }
-
 .projects::-webkit-scrollbar-thumb,.certifications::-webkit-scrollbar-thumb,.education::-webkit-scrollbar-thumb{
     background-color: #c2c1c1;
     border-radius: 10px;
 }
-
 /* Project box */
 .project-box {
     background-color: #cecece;
@@ -113,40 +111,32 @@ h3.paragraph{
     padding: 15px;
     margin-bottom: 20px;
 }
-
 .skills {
-    margin-top: 2px;
+    margin-top: 10px;
     margin-bottom:10px;
 }
-
 .skill-tag {
-    display: inline-block;
     background-color: #c57f4c;
     color: white;
     border-radius: 15px;
     padding: 5px 10px;
     margin-right: 2px;
 }
-
 .project-content {
     display: flex;
     gap: 15px;
     align-items: flex-start;
 }
-
 .project-left {
     flex: 1;
     display: flex;
     flex-direction: column;
 }
-
 .project-image img {
     max-width: 150px;
     max-height: 100px;
     border-radius: 20px;
 }
-
-
 /* Certifications */
 .certification-box {
     background-color: #cecece;
@@ -158,7 +148,6 @@ h3.paragraph{
     padding: 15px;
     margin-bottom: 20px;
 }
-
 /* Education */
 .education-box {
     background-color: #cecece;
@@ -167,34 +156,38 @@ h3.paragraph{
     padding: 15px;
     margin-bottom: 20px;
 }
-
-
 @media (max-width: 1360px) {
-
     .contacts {
         display: block;
     }
-
     #contacts-title {
         text-align: left;
     }
-
     .contact-item {
         display: inline-block;
         margin-right: 10px;
     }
-
     .contact-item p {
         display: none;
     }
-
     .contact-item img {
         width: 24px;
         height: 24px;
+    }
+    .left-top {
+        height: auto;
+        min-height: unset;
     }
 }
 @media (max-height: 910px) {
     .left-top {
         min-height: 546px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        height: auto;
+        min-height: 100vh;
     }
 }

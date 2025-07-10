@@ -170,6 +170,7 @@ h3.paragraph{
 
 
 @media (max-width: 1360px) {
+
     .contacts {
         display: block;
     }
@@ -192,4 +193,8 @@ h3.paragraph{
         height: 24px;
     }
 }
-
+@media (max-height: 910px) {
+    .left-top {
+        min-height: 546px;
+    }
+}

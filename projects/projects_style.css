@@ -1,0 +1,116 @@
+/* Alapstílusok */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url("../background.jpg") fixed;
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+
+
+.container {
+    max-width: 1000px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #cecece;
+    border-radius: 20px;
+}
+
+/* title and subtitle */
+.project-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 20px;
+    color:black;
+}
+
+.project-subtitle {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* skills */
+.project-categories {
+    margin-bottom: 25px;
+}
+
+.skill-tag {
+    display: inline-block;
+    background-color: #c57f4c;
+    color: #fff;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+/* image */
+.project-img {
+    width:90%;
+    max-width:400px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border-radius: 20px;
+}
+
+/* code-block */
+.project-code {
+    background-color: #1e1e1e;
+    color: #dcdcdc;
+    font-family: monospace;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 20px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* text */
+.project-text {
+    background-color: #949494;
+    color: #000000;
+    padding: 10px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 20px;
+    overflow-x: auto;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Responsivity */
+@media screen and (max-width: 768px) {
+    .project-title {
+        font-size: 24px;
+    }
+
+    .project-subtitle {
+        font-size: 16px;
+    }
+
+    .project-text {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+
+    .project-code {
+        font-size: 14px;
+        padding: 15px;
+    }
+}

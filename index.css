@@ -111,6 +111,10 @@ h3.paragraph{
     padding: 15px;
     margin-bottom: 20px;
 }
+.project-box a{
+    text-decoration: none;
+    color: inherit;
+}
 .skills {
     margin-top: 10px;
     margin-bottom:10px;
